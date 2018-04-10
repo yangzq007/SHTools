@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SHTools_Example' do
+  pod 'SHTools', :path => '../'
+
+  target 'SHTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
