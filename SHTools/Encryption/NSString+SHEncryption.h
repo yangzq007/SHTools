@@ -28,7 +28,7 @@
  */
 + (NSString *)randomString:(NSInteger)length inLetters:(NSString *)letters;
 
-#pragma mark - 加密和编码
+#pragma mark - 加密
 
 /**
  sha1加密
@@ -44,19 +44,5 @@
  @return 密文
  */
 - (NSString *)hmacSha1:(NSString *)key;
-
-/**
- base64编码
- 
- @return 编码后的字符串
- */
-- (NSString *)base64Encode;
-
-/**
- base64解码
- 
- @return 解码后的字符串
- */
-- (NSString *)base64Decode;
 
 @end
